@@ -229,9 +229,9 @@
         "lines": [
           1,
           1,
-          22,
-          22,
-          22,
+          3,
+          3,
+          3,
           1,
           null,
           null
@@ -241,7 +241,7 @@
         "lines": [
           1,
           1,
-          44,
+          2,
           null,
           null
         ]
@@ -256,36 +256,9 @@
           1,
           null,
           1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/item.rb": {
-        "lines": [
-          1,
           1,
           null,
-          1,
           null,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/models/merchant_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
           null,
           null
         ]
@@ -303,104 +276,16 @@
           null
         ]
       },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/models/transactions_spec.rb": {
-        "lines": [
-
-        ]
-      },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/requests/api/v1/items_request_spec.rb": {
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/application_record.rb": {
         "lines": [
           1,
-          null,
           1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
           null
         ]
       },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/requests/api/v1/merchants_request_spec.rb": {
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/item.rb": {
         "lines": [
           1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          20,
-          20,
-          null,
-          null,
-          null,
-          1,
           1,
           null,
           1,
@@ -408,30 +293,12 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
           null
         ]
       },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/controllers/api/v1/items_controller.rb": {
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/controllers/api/v1/merchant_items_controller.rb": {
         "lines": [
           1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
           1,
           1,
           1,
@@ -442,40 +309,31 @@
       "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/controllers/application_controller.rb": {
         "lines": [
           1,
-          null
-        ]
-      },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/controllers/api/v1/merchants_controller.rb": {
-        "lines": [
           1,
           1,
           1,
+          null,
           1,
           0,
           null,
           1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
+          0,
           null,
           null
         ]
       },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/serializers/merchant_serializer.rb": {
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/serializers/item_serializer.rb": {
         "lines": [
           1,
           1,
           1,
-          1,
+          null,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1621986852
+    "timestamp": 1622002548
   }
 }
