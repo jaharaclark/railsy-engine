@@ -3,11 +3,11 @@ require 'rails_helper'
 RSpec.describe 'Items API' do 
   it 'gets all items, a maximum of 20 at a time' do
     create_list(:item, 20)
-
+    
     get '/api/v1/items'
-
+    
     expect(response).to be_successful
-
+    
     items = JSON.parse(response.body, symbolize_names: true)
 
     expect(items.count).to eq(20)
@@ -48,18 +48,21 @@ RSpec.describe 'Items API' do
   end
 
   it 'can create a new item' do
+    merchant = create(:merchant)
     item_params = ({
                     name: 'Sticky Note',
                     description: 'a place to write thoughts',
                     unit_price: 3.98,
-                    merchant_id: 2
+                    merchant_id: merchant.id
                   })
+
     headers = {"CONTENT_TYPE" => "application/json"}
     
     post "/api/v1/items", headers: headers, params: JSON.generate(item: item_params)
+    
     created_item = Item.last
-
+    
     expect(response).to be_successful
-    expect(created_item.name).to eq(item_params[:name])
+    expect(created_item[:name]).to eq(item_params[:name])
   end
 end

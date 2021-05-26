@@ -8,7 +8,6 @@
 
 # before running "rake db:seed", do the following:
 # - put the "rails-engine-development.pgdump" file in db/data/
-require 'faker'
 cmd = "pg_restore --verbose --clean --no-acl --no-owner -h localhost -U $(whoami) -d railsy_engine_development db/data/railsy-engine-development.pgdump"
 puts "Loading PostgreSQL Data dump into local database with command:"
 puts cmd
