@@ -11,7 +11,14 @@ class Api::V1::MerchantsController < ApplicationController
   end
   
   def show
-    merchant = Merchant.find(params[:id])
+    # if params[:id] == "find"
+    #   merchant = Merchant.find_by("name LIKE ?", "%#{params[:name].downcase}%")
+    #   if merchant == nil
+    #     render json: {"data" => {}}
+    #   end
+    # else
+      merchant = Merchant.find(params[:id])
+    # end
     render json: MerchantSerializer.new(merchant)
   end
 end

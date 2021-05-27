@@ -9,7 +9,7 @@ class Api::V1::ItemsController < ApplicationController
     items = Item.limit(per_page).offset(((page - 1) * per_page))
     render json: ItemSerializer.new(items)
   end
-
+  
   def show
     item = Item.find(params[:id])
     render json: ItemSerializer.new(item)

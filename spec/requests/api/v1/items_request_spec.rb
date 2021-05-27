@@ -70,7 +70,7 @@ RSpec.describe 'Items API' do
     merchant = create(:merchant)
     item = create(:item, merchant: merchant)
 
-    get "/items/#{item.id}/merchants/#{merchant.id}"
+    get "/api/v1/items/#{item.id}/merchant"
 
     merchant = JSON.parse(response.body, symbolize_names: true)
 
