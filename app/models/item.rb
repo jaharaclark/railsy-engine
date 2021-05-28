@@ -9,7 +9,6 @@ class Item < ApplicationRecord
   def self.items_with_most_revenue(quantity)
 
     item_quantity = quantity.to_i
-    # require 'pry'; binding.pry
     Item.select("items.*, SUM(invoice_items.unit_price * invoice_items.quantity) AS revenue")
     .joins(invoice_items: [:invoice, :transactions])
     .where(transactions: {result: "success"}, invoice: {status: "shipped"})
