@@ -11,7 +11,6 @@ RSpec.describe 'Merchants API' do
   it 'happy: gets all merchants, a maximum of 20 at a time' do 
     create_list(:merchant, 20)
     get '/api/v1/merchants'
-    
     expect(response).to be_successful
     
     merchants = JSON.parse(response.body, symbolize_names: true)[:data]

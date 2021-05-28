@@ -4,7 +4,11 @@ Rails.application.routes.draw do
     namespace :v1 do
       namespace :revenue do
         resources :merchants, only: [:index, :show]
-      end
+        end
+      namespace :revenue do
+        resources :items, only: [:index, :show]
+        get '/unshipped', to: "search#unshipped"
+        end
       resources :merchants, only: [:index, :show] do
         resources :items, only: [:index], controller: :merchant_items
         collection do

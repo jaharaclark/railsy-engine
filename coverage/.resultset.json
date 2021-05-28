@@ -257,6 +257,9 @@
           null,
           1,
           1,
+          null,
+          1,
+          1,
           1,
           1,
           null,
@@ -266,6 +269,104 @@
           null,
           null,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/customer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/models/invoice_item_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/invoice_item.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/models/invoice_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/invoice.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/models/item_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
           null,
           null
         ]
@@ -282,18 +383,20 @@
           null
         ]
       },
-      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
       "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/models/merchant_spec.rb": {
         "lines": [
           1,
           null,
           1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
           null,
           null
         ]
@@ -310,13 +413,44 @@
           1,
           null,
           1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
           null,
           null
         ]
       },
       "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/models/transactions_spec.rb": {
         "lines": [
-
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/app/models/transaction.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
         ]
       },
       "/Users/jaharaclark/turing/back_end/mod_3/projects/railsy-engine/spec/requests/api/v1/items_request_spec.rb": {
@@ -469,7 +603,6 @@
           1,
           1,
           1,
-          null,
           1,
           null,
           1,
@@ -691,6 +824,6 @@
         ]
       }
     },
-    "timestamp": 1622088185
+    "timestamp": 1622159742
   }
 }
