@@ -1,0 +1,29 @@
+{
+  "name": "railsy-engine",
+  "version": "1.0.0",
+  "description": "turing project",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaharaclark/railsy-engine.git"
+  },
+  "keywords": [
+    "keyword"
+  ],
+  "author": "Jahara Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaharaclark/railsy-engine/issues"
+  },
+  "homepage": "https://github.com/jaharaclark/railsy-engine#readme"
+}
