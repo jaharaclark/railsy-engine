@@ -4,7 +4,8 @@ rbenv:
 addons:
   postgresql: 9.6
 script:
-- rake db:{create,migrate} RAILS_ENV=test
+- rake db:create 
+- rake db:test:prepare
 - bundle exec rspec
 
 
