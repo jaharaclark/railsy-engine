@@ -1,0 +1,10 @@
+language: ruby
+rbenv:
+- 2.5.3
+addons:
+  postgresql: 2.4.3
+script:
+- bundle exec rails db:{create,migrate} RAILS_ENV=test
+- bundle exec rspec
+
+
