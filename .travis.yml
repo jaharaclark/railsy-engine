@@ -4,8 +4,8 @@ rbenv:
 addons:
   postgresql: 9.6
 script:
-- rake db:create 
-- rake db:test:prepare
+- bundle exec rake db:create 
+- bundle exec rake db:test:prepare
 - bundle exec rspec
 
 
